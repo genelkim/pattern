@@ -1,3 +1,7 @@
+Gene's Personal Version
+=======================
+I've forked a version that simply removes the mysqlclient dependency. I don't use this feature and some of the network environments that I work in don't allow me to install mysqlclient for security reasons. Attempting to use any feature that uses mysqlclient will surely break. Please follow the local installation instructions (i.e. `python setup.py install`).
+
 Pattern
 =======
 
