@@ -142,9 +142,9 @@ setup(
         "lxml",
         "feedparser",
         "pdfminer" if sys.version < "3" else "pdfminer.six",
-        "numpy",
-        "scipy",
-        "nltk",
+        "numpy==1.19.*",
+        "scipy==1.5.*",
+        "nltk==3.6.*",
         "python-docx",
         "cherrypy",
         "requests"
